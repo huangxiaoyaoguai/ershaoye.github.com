@@ -7,13 +7,18 @@
 node  child_process
 
 callfile.exec('sh gitpull.sh',function(data,err){
+
     console.log(data,err)
+
   })
  ######################################
 
 遇到坑，关于response   本来模模糊糊的response 看一遍
+
 一切有点明了
+
 关于response 我感觉比较详细的教程
+
 http://www.html-js.cn/details/EyoCRHgi.html
 
 
