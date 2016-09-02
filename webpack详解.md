@@ -31,7 +31,7 @@ module: {
 	loader:[]
 }
 
--有时候我们希望某些模块走CDN并以<script>的形式挂载到页面上来加载，但又希望能在 webpack 的模块中使用上
+-有时候我们希望某些模块走CDN并以'script'的形式挂载到页面上来加载，但又希望能在 webpack 的模块中使用上
 
 externals: {
       'react': 'window.React',
