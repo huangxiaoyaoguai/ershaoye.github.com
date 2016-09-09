@@ -54,6 +54,7 @@ resolve{
 	}
 
 	root：“”   优先查找开始路径
+	extensions: ['', '.js', '.jsx']   后缀默认
 	
 }
 
