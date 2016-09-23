@@ -1,3 +1,4 @@
+function(root,factory){
 if (typeof define === 'function' && define.amd) {
         //AMD
         define(factory);
@@ -8,3 +9,4 @@ if (typeof define === 'function' && define.amd) {
         //浏览器全局变量(root 即 window)
         root.resLoader = factory(root);
     }
+   }(window,function(){})
