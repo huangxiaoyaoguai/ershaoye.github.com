@@ -2,22 +2,38 @@
 
 
     <!-- 声明文档使用的字符编码 -->
+
     <meta charset='utf-8'>
+
+
     <!-- 优先使用 IE 最新版本和 Chrome -->
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
     <!-- 页面描述 -->
+
     <meta name="description" content="不超过150个字符"/>
+
     <!-- 页面关键词 -->
+
     <meta name="keywords" content=""/>
+
     <!-- 网页作者 -->
+
     <meta name="author" content="name, email@gmail.com"/>
+
     <!-- 搜索引擎抓取 -->
+
     <meta name="robots" content="index,follow"/>
+
     <!-- 为移动设备添加 viewport -->
+
     <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+
     <!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 http://bigc.at/ios-webapp-viewport-meta.orz -->
+
  
-    <!-- iOS 设备 begin -->
+    -<!-- iOS 设备 begin -->
     <meta name="apple-mobile-web-app-title" content="标题">
     <!-- 添加到主屏后的标题（iOS 6 新增） -->
     <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -53,6 +69,9 @@
     <meta name="x5-page-mode" content="app">
     <!-- windows phone 点击无高光 -->
     <meta name="msapplication-tap-highlight" content="no">
+
+
+    
     <!-- iOS 图标 begin -->
     <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57x57-precomposed.png"/>
     <!-- iPhone 和 iTouch，默认 57x57 像素，必须有 -->
