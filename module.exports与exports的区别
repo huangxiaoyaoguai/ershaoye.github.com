@@ -1,0 +1,14 @@
+module.exports与exports区别
+
+共同点：两个的共同用法就是将文件内部的变量暴露在外部，，这样在外部直接require之后就可以直接调用这个方法，，
+
+不同点：module.exports可以自主定义变量的类型，
+        export读取的只是对象object
+        
+        例如：export.a = []  //错误；
+             module.export = []  //可以输出
+            
+            
+  坑点：a={};
+  直接exports = a;是不能输出，，需要export.a = a;这样才能指出
+
