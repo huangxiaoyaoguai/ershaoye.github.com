@@ -1,0 +1,72 @@
+1，安装item
+
+2 安装zsh  到网站上进行下载http://ohmyz.sh/
+	启动时启动
+		which zsh   得到路径
+		chsh -s 路径
+
+3 安装brew  http://brew.sh/
+	安装xcode
+
+4 配色
+	主题网站。
+		自带主题 https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+
+		https://draculatheme.com/   
+
+		 git clone https://github.com/dracula/zsh.git
+
+		 ~/.oh-my-zsh/themes，把clone的dracula.zsh-theme文件复制进文件夹即可。
+		 修改ZSH配置
+			ZSH
+			vi ~/.zshrc
+				ZSH_THEME="dracula"
+
+
+5 vim 配色
+  新建 ~./vimrc
+  	"set background=darki
+	"colo solarized
+	set number
+	syntax on
+	set ruler
+
+
+6 安装go2shell  这是一个文件夹神器，，下载就好了 按住command拖动软件图标移动到finder上
+
+
+7  命令终端打开sublime  
+	alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+8 设置item打开新的窗口 仍然在上一个位置
+
+	直接设置item 
+
+9 zsh 配置联想 
+	git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+	修改.zshrc 的plugins     plugins=(git zsh-autosuggestions)
+
+###############################安装前端环境########
+1  安装node
+
+	使用nvm
+	使用brew 安装nvm 然后 brew info nvm 按照上面走一遍   
+
+	本来想用nvm  但是nvm切换版本不共享仓库，不好用 最后使用 n  https://github.com/tj/n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
