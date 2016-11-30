@@ -11,10 +11,10 @@
 4 配色
 	主题网站。
 		自带主题 https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+		我自己喜欢的主题  half-life
 
 		https://draculatheme.com/   
-
-		 git clone https://github.com/dracula/zsh.git
+		git clone https://github.com/dracula/zsh.git
 
 		 ~/.oh-my-zsh/themes，把clone的dracula.zsh-theme文件复制进文件夹即可。
 		 修改ZSH配置
@@ -54,6 +54,32 @@
 	使用brew 安装nvm 然后 brew info nvm 按照上面走一遍   
 
 	本来想用nvm  但是nvm切换版本不共享仓库，不好用 最后使用 n  https://github.com/tj/n
+
+
+
+2 下载花瓶
+	http://www.waitsun.com/charles-4-0-2.html
+	用安装里面的jar替换java里的文件
+	账号：WaitsUn.com 密码：vapg-fold-dreg-inky
+
+
+
+3 安装ps 
+	最近发现一个神器，关于破解ps 和adobe的套餐，，
+	下载 create cloud  用Adobe zii 破解
+	存于百度网盘 
+
+4 git 绑定秘钥
+	
+	先查看有没有生成秘钥在电脑上
+
+		~/.zsh 文件夹上有没有下面两个文件
+
+	ssh-keygen   //   ssh-keygen -t rsa -C “********@mail.com”
+
+	会生成两个文件 .ssh/id_rsa // .ssh/id_rsa.pub
+
+	cat 这个文件id_rsa.pub 将显示的码放在秘钥内，，绑定完毕
 
 
 
