@@ -1,6 +1,8 @@
 1，安装item
 
 2 安装zsh  到网站上进行下载http://ohmyz.sh/
+
+	sudo vim /etc/shells
 	启动时启动
 		which zsh   得到路径
 		chsh -s 路径
