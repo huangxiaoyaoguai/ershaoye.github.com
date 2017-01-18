@@ -31,3 +31,5 @@ ln -s /data/nodejs/bin/npm /usr/local/bin/npm
 cd 到全局变量的存在目录 pwd 得到全局路径 复制
 
 存在~/.bash_profile   修改path
+
+重启 source .bash_profile
