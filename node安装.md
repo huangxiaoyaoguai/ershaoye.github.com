@@ -8,6 +8,10 @@
 #2.直接下载编译好的文件，然后设置软链/path
 
 	利用
+
+	第一个参数是目标文件  第二个是设置软连位置
+
+
 	ln -s /data/nodejs/bin/node /usr/local/bin/node
 	ln -s /data/nodejs/bin/npm /usr/local/bin/npm
 	设置软链
