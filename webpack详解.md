@@ -95,6 +95,36 @@ on-build-webpack  在webpack中使用可以提取报错消息
 
 
 
+webpack 优化插件
+
+[webpack使用优化](http://web.jobbole.com/84847/)
+
+最小化 ：new webpack.optimize.OccurenceOrderPlugin()    webpack就能够比对id的使用频率和分布来得出最短的id分配给使用频率高的模块 
+
+去重：new webpack.optimize.DedupePlugin()
+
+压缩：webpack.optimize.UglifyJsPlugin
+
+对于chunks的优化：new webpack.optimize.LimitChunkCountPlugin({maxChunks: 15})   
+                new webpack.optimize.MinChunkSizePlugin({minChunkSize: 10000})
+
+
+改变生产环境和线上环境：new webpack.DefinePlugin
+
+
+单页：
+  Webpack 是为单页应用量身定做的 你可以把app拆成很多chunk，这些chunk由路由来加载。入口模块仅仅包含路由和一些库，没有别的内容。这么做在用户通过导航浏览表现很好，但是初始化页面加载的时候你需要2个网络请求：一个是请求路由，一个是加载当前内容。
+  如果你利用HTML5的HistoryAPI 来让URL影响当前内容页的话。你的服务器可以知道那个内容页面将被客户端请求。为了节约请求数，服务端可以把要请求的内容模块放到响应头里面：以script标签的形式来添加，浏览器将并行的加载这俩请求。
+
+
+多页共享代码：
+  当编译一个多页面的app时，你想要在页面之间共享一些代码。这在webpack看来很简单的：只需要和多个入口文件一起编译就好
+    new CommonsChunkPlugin("commons.chunk.js")
+
+
+HtmlWebpackPlugin：[链接](https://www.npmjs.com/package/html-webpack-plugin)
+
+
 
 
 
